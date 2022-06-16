@@ -1,7 +1,21 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+// Write your algorithm here
+function reverseString(word){
+  return word.split("").reverse().join("")
+  //reverse the array
+  //create  a string from the reversed array
+  //return the reversed string
+  return reversedWord;
 }
 
+function isPalindrome(word) {
+  
+  
+//reverse the input string
+const reversedWord = reverseString(word)
+//if the input t is the same as the reversed input
+return word === reversedWord;
+
+}
 /* 
   Add your pseudocode here
 */
